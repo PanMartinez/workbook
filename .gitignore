@@ -3,7 +3,6 @@
 # Edit at https://www.gitignore.io/?templates=python,django,pycharm,angular
 
 ### Angular ###
-## Angular ##
 # compiled output
 dist/
 tmp/
