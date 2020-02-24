@@ -79,6 +79,10 @@ class User(AbstractUser):
     Custom User model with email as authentication field
     """
 
+    @property
+    def is_manager(self):
+        return self.user_type == self.MANAGER
+
     class Meta:
         default_permissions = ()
 

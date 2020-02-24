@@ -1,7 +1,0 @@
-pip-tools
-django
-psycopg2
-python-dotenv
-dj-database-url
-djangorestframework
-djangorestframework_simplejwt
